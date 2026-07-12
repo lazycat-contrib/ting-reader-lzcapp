@@ -1,0 +1,32 @@
+version: 1
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: dist/ting-reader.lpk
+update:
+  strategy: publish
+  allow_downgrade: false
+  version_source:
+    type: image
+    image: ting-reader
+build:
+  run_buildscript: false
+images:
+  - id: ting-reader
+    target: service
+    service: ting-reader
+    source: dqsq2e2/ting-reader
+    channel: stable
+    tag_regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    delivery:
+      mode: lazycat
+stores:
+  official:
+    enabled: true
+    skip_if_version_exists: true
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: Ting Reader
+    summary: 支持元数据刮削与多端进度同步的自托管有声书平台
