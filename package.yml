@@ -1,12 +1,11 @@
 package: community.lazycat.app.ting-reader
-version: 1.0.2
+version: 1.5.3
 name: Ting Reader
 description: "A modern web-based e-book reader application"
 min_os_version: 1.5.0
 license: MIT
 homepage: https://github.com/dqsq2e2/ting-reader
 author: dqsq2e2
-
 locales:
   en:
     name: "Ting Reader"
