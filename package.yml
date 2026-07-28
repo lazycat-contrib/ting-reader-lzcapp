@@ -1,5 +1,5 @@
 package: community.lazycat.app.ting-reader
-version: 1.5.5
+version: 1.5.6
 name: Ting Reader
 description: "A modern web-based e-book reader application"
 min_os_version: 1.5.0
