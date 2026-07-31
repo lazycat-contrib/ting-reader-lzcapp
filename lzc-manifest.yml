@@ -8,8 +8,8 @@ application:
 services:
   ting-reader:
     # dqsq2e2/ting-reader:1.0.2
-    # upstream: dqsq2e2/ting-reader:1.5.7
-    image: registry.lazycat.cloud/czyt/dqsq2e2/ting-reader:20b9b6da1640d2a2
+    # upstream: dqsq2e2/ting-reader:1.5.8
+    image: registry.lazycat.cloud/czyt/dqsq2e2/ting-reader:3913b4e4d9b73e4c
     environment:
       - RUST_LOG=info
       - TING_SERVER__HOST=0.0.0.0
