@@ -3,7 +3,7 @@ version: 2.0.5
 name: Ting Reader
 description: "A modern web-based e-book reader application"
 min_os_version: 1.5.0
-license: MIT
+license: AGPL-3.0
 homepage: https://github.com/dqsq2e2/ting-reader
 author: dqsq2e2
 locales:
